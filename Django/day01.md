@@ -63,7 +63,7 @@ IP:0.0.0.0    PORT: 80
 python manage.py runserver IP:端口
 ```
 #### 4.访问管理后台 admin
-    
+
 ```
 http://127.0.0.1:8080/admin
 ```
@@ -72,8 +72,8 @@ http://127.0.0.1:8080/admin
 #### 6.映射模型到数据库中
     python manage.py migrate
 #### 7.初始化数据库驱动__init__.py
-    import pypython
+    import pymysql
     pymysql.install_as_mysqldb()
 #### 8.创建超级管理员命令
     python manage.py createsuperuser
-    
+​    
