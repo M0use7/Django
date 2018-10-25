@@ -107,9 +107,9 @@ stus = Student.objects.filter(s_age__gt=18)
 #### 排序 order_by()
 ```
 # 升序
-stus = Student.objects.orderby('id')
+stus = Student.objects.order_by('id')
 # 降序
-stus = Student.objects.orderby('-id')
+stus = Student.objects.order_by('-id')
 ```
 
 #### 查询不满足条件的数据 exclude()
